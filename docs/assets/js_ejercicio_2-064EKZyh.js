@@ -1,0 +1,1 @@
+import"./main-Bo1HfP5e.js";let o=document.getElementById("botonClicks"),e=document.getElementById("contadorClicks"),t=0;console.log(t);o.addEventListener("click",()=>{t+=1,e.textContent="Clicks: "+t,console.log(t)});

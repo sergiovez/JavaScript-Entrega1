@@ -1,0 +1,1 @@
+import"./main-Bo1HfP5e.js";const t=document.getElementById("texto"),s=document.getElementById("lista"),l=s.getElementsByTagName("li");console.log(l);t.addEventListener("input",()=>{let n=t.value;for(let e of l)e.innerHTML.startsWith(n)?e.style.display="":e.style.display="none"});

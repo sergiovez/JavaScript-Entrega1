@@ -1,0 +1,1 @@
+import"./main-Bo1HfP5e.js";const e=document.getElementById("texto"),r=document.getElementById("caracteres"),o=document.getElementById("palabras");e.addEventListener("input",()=>{let t=e.value;const a=t.trim()===""?0:t.trim().split(/\s+/).length,n=t.trim().split(/\s+/).join().length;r.textContent="Caracteres: "+n,o.textContent="Palabras: "+a});

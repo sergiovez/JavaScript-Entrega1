@@ -1,0 +1,1 @@
+import"./main-Bo1HfP5e.js";let r=document.getElementById("botonColor");r.addEventListener("click",()=>{document.body.style.backgroundColor=l()});function l(){let o=Math.floor(Math.random()*255),t=Math.floor(Math.random()*255),e=Math.floor(Math.random()*255);return`rgb(${o}, ${t}, ${e})`}
